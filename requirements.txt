@@ -1,0 +1,5 @@
+pandas
+pandassql
+SQLAlchemy=1.4.46
+mysqlclient
+python-dotenv
