@@ -1,6 +1,7 @@
 
 from pandasql import sqldf
-pysqldf = lambda q: sqldf(q, locals()) 
+pysqldf = lambda q: sqldf(q, locals())      #option for local variables inside def
+#pysqldf = lambda q: sqldf(q, globals())    #option for global variables
 
 class Transform():
     
